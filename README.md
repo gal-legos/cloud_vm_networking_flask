@@ -6,7 +6,7 @@
 - Cloud Provider: GCP
 
 ## Video recording: 
-- Zoom/Loom: 
+- Zoom [video](https://www.canva.com/design/DAG1041V-DM/74Hn-27SKV5TqouVUFQrfw/edit?utm_content=DAG1041V-DM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
 
 ## Steps
 ### 1. VM Creation
@@ -14,8 +14,10 @@
 ![VM_creation_2](vm_networking_screenshots/vm_creation_2.png)
 
 ### 2. Networking (Port 5003 Open)
-the networking 
+In order for port 5003 to be used, the 'http' and 'https' boxes needed to be selected in the networking configuration when initially creating the VM instance. 
 ![networking_http](vm_networking_screenshots/http_https_allow.png)
+
+In addition to the adjusting the network configurations, a firewall rule needs to be set up that allows for port 5003 to be open 
 ![networking_firewall](vm_networking_screenshots/firewall_rule_creation.png)
 
 ### 3. OS Update + Python Install
